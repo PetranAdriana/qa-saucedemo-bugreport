@@ -41,11 +41,16 @@ To validate that the SauceDemo e-commerce platform functions correctly for key u
 - **OS**: Windows 11
 - **Platform**: SauceDemo (https://www.saucedemo.com/)
 
-  | Test Case ID | Title                     | Steps to Reproduce                                     | Expected Result                         |
-|--------------|---------------------------|--------------------------------------------------------|------------------------------------------|
-| TC-001       | Verify login functionality | 1. Go to login page<br>2. Enter valid credentials<br>3. Click Login | User is redirected to dashboard page     |
-| TC-002       | Add item to cart          | 1. Search for item<br>2. Click “Add to cart”           | Item appears in the cart                 |
-| TC-003       | Checkout process          | 1. Add item to cart<br>2. Click checkout<br>3. Fill form | Order confirmation page is displayed     |
+ ## 9. 🧪 Test Cases
+
+| Test Case ID | Title                  | Steps to Reproduce                                                                                                                                         | Expected Result                                      |
+|--------------|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| TC-001       | Verify login           | 1. Go to login page <br> 2. Enter valid credentials <br> 3. Click Login                                                                                    | User is redirected to dashboard                      |
+| TC-002       | Add item to cart       | 1. Search for item <br> 2. Click "Add to cart"                                                                                                             | Item appears in the cart                             |
+| TC-003       | Checkout process       | 1. Add item to cart <br> 2. Click checkout <br> 3. Fill in form <br> 4. Click "Finish"                                                                    | Order confirmation message is displayed              |
+| TC-004       | Logout functionality   | 1. Login <br> 2. Click menu <br> 3. Click Logout                                                                                                           | User is redirected to login page                     |
+| TC-005       | Invalid login attempt  | 1. Go to login page <br> 2. Enter invalid credentials <br> 3. Click Login                                                                                 | Error message is displayed: "Username and password do not match" |
+
 
 
 ## 10. 👤 Testers
